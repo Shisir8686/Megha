@@ -1,5 +1,5 @@
 import React from 'react';
-import meghaVideo from '../assets/video/meghaFullvideo.mp4';
+import meghaVideo from '../assets/Video/meghaFullvideo.mp4';
 
 const VideoComponent = () => {
   return (
