@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Navigation from "../Components/Navigation";
-import NewNavmenu from "../Components/newNavmenu";
 import Footer from "../Components/Footer";
 import GoUpButton from "../Components/GoUpButton";
 import NavInfoBar from "../Components/NavInfoBar";
