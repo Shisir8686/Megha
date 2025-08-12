@@ -11,7 +11,7 @@ import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import Contact from "./pages/Contact";
 import Course from "./pages/Course";
-import Notice from "./pages/notice";
+import Notice from "./pages/Notice";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Gallery from "./pages/GalleryPage";

@@ -1,0 +1,20 @@
+{
+	"siteId": "5c769f0a-d9a9-4d2c-8af1-aba8d2980262",
+	"geolocation": {
+		"data": {
+			"city": "Dāng",
+			"country": {
+				"code": "NP",
+				"name": "Nepal"
+			},
+			"subdivision": {
+				"code": "P5",
+				"name": "Lumbini Province"
+			},
+			"timezone": "Asia/Kathmandu",
+			"latitude": 28.1146,
+			"longitude": 82.2962
+		},
+		"timestamp": 1754974031892
+	}
+}
