@@ -5,7 +5,7 @@ import AboutMegha from "../Components/AboutMegha";
 import CourseCard from "../Components/CourseCard";
 import Features from "../2ndComponents/Features";
 import TestimonialSlider from "../2ndComponents/testimonial";
-import VideoComponent from "../Components/video";
+import VideoComponent from "../Components/Video";
 import BgImage from "../Components/BgImage";
 import Gallery from "../AboutComponents/Gallery";
 import BeQuick from "../AboutComponents/bequick";
