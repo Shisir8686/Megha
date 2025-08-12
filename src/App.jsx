@@ -27,8 +27,12 @@ const App = () => {
     });
   }, []);
 
+  
+  const basename =
+    import.meta.env.DEV ? "/" : "/Reactproject";
+
   return (
-    <HashRouter basename="/Reactproject">
+    <HashRouter basename={basename}>
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
