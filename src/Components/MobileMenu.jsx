@@ -1,6 +1,6 @@
 import React from "react";
 import navMenu from "../constants/navMenu";
-import navigation from "../Components/newNavmenu";
+import navigation from "./newNavmenu";
 import { NavLink } from "react-router-dom";
 
 const ResponsiveMenu = ({ showMenu, toggleMenu }) => {
