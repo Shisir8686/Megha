@@ -5,7 +5,6 @@ import navMenu from "../constants/navMenu";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import DarkMode from "./DarkMode";
 import ResponsiveMenu from "./MobileMenu";
-import Megha from "../assets/Images/MeghaLogoFinal.svg";
 
 const Navigation = () => {
   const [showMenu, setShowMenu] = useState(false);

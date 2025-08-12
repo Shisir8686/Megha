@@ -1,7 +1,6 @@
 import React from "react";
 import MainAbout from "../AboutComponents/MainAbout";
 import BoardSection from "../AboutComponents/BoardMembers";
-import { div } from "framer-motion/client";
 
 const About = () => {
   return (

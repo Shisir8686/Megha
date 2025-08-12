@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../Components/Hero";
+
 
 import AboutMegha from "../Components/AboutMegha";
 import CourseCard from "../Components/CourseCard";
@@ -16,7 +16,7 @@ const Home = () => {
       <div className="lg:container overflow-x-hidden ">
         <BgImage/>
         <VideoComponent /> 
-        {/* <Hero /> */}
+     
         <AboutMegha />
         <CourseCard />
         <Features />

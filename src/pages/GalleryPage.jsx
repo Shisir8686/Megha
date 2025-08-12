@@ -10,7 +10,6 @@ import hm7 from "../assets/Images/HMgallery/juggling.jpg";
 import hm8 from "../assets/Images/HMgallery/jugling2.jpg";
 import hm9 from "../assets/Images/HMgallery/bartendingWorkshop.jpg";
 
-import sci1 from "../assets/Images/sciencelab/sci4.jpg";
 import sci10 from "../assets/Images/sciencelab/scifield4.jpg";
 import sci2 from "../assets/Images/sciencelab/sciMain.jpg";
 import sci3 from "../assets/Images/sciencelab/sci3.jpg";
