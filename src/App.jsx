@@ -1,9 +1,5 @@
 import React, { useEffect } from "react";
-import {
-  HashRouter,
-  Routes,
-  Route
-} from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import MainLayout from "./Layouts/MainLayout";
 import Home from "./pages/Home";
@@ -27,12 +23,8 @@ const App = () => {
     });
   }, []);
 
-  
-  const basename =
-    import.meta.env.DEV ? "/" : "/Reactproject";
-
   return (
-    <HashRouter basename={basename}>
+    <HashRouter>
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
