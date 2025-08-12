@@ -10,15 +10,15 @@ import hm7 from "../assets/Images/HMgallery/juggling.jpg";
 import hm8 from "../assets/Images/HMgallery/jugling2.jpg";
 import hm9 from "../assets/Images/HMgallery/bartendingWorkshop.jpg";
 
-import sci10 from "../assets/Images/sciencelab/scifield4.jpg";
-import sci2 from "../assets/Images/sciencelab/sciMain.jpg";
-import sci3 from "../assets/Images/sciencelab/sci3.jpg";
-import sci4 from "../assets/Images/sciencelab/sciMicroscope.jpg";
-import sci5 from "../assets/Images/sciencelab/sciGirl.jpg";
-import sci6 from "../assets/Images/sciencelab/mpbhattasir.jpg";
-import sci7 from "../assets/Images/sciencelab/sciboys.jpg";
-import sci8 from "../assets/Images/sciencelab/scifield2.jpg";
-import sci9 from "../assets/Images/sciencelab/scifield3.jpg";
+import sci2 from "../assets/Images/scienceLab/sciMain.jpg";
+import sci3 from "../assets/Images/scienceLab/sci3.jpg";
+import sci4 from "../assets/Images/scienceLab/sciMicroscope.jpg";
+import sci5 from "../assets/Images/scienceLab/sciGirl.jpg";
+import sci6 from "../assets/Images/scienceLab/mpbhattasir.jpg";
+import sci7 from "../assets/Images/scienceLab/sciboys.jpg";
+import sci8 from "../assets/Images/scienceLab/scifield2.jpg";
+import sci9 from "../assets/Images/scienceLab/scifield3.jpg";
+import sci10 from "../assets/Images/scienceLab/scifield4.jpg";
 
 const hotelManagementImages = [hm1, hm2, hm3, hm4, hm5, hm6, hm7, hm8, hm9];
 const scienceImages = [ sci2, sci3, sci4, sci5, sci6, sci7, sci8, sci9, sci10];
