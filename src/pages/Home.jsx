@@ -12,7 +12,7 @@ import BeQuick from "../AboutComponents/bequick";
 
 const Home = () => {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-gray-800">
       <div className="lg:container overflow-x-hidden ">
         <BgImage/>
         <VideoComponent /> 

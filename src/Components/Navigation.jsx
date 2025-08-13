@@ -25,7 +25,7 @@ const Navigation = () => {
   };
 
   return (
-    <div className="sm:container py-5 px-2 sm:px-0 dark:bg-black dark:text-white z-30">
+    <div className="sm:container py-5 px-2 sm:px-0 dark:bg-gray-800 dark:text-white z-30">
       <div className="flex flex-wrap justify-between items-center sm:container">
         <div className="flex items-center md:gap-5">
           <Link to="/">

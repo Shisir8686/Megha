@@ -15,7 +15,7 @@ const BoardSection = () => {
         {boardMembers.map((member) => (
           <div
             key={member.key}
-            className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300 flex flex-col items-center text-center"
+            className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg hover:scale-105 transform transition-all duration-300 flex flex-col items-center text-center"
           >
             <img
               src={member.img}

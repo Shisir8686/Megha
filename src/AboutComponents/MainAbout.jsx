@@ -4,7 +4,7 @@ import HMdream from "../assets/Course/HMdream.jpg";
 
 const MainAbout = () => {
   return (
-    <div className="container mx-auto p-6 bg-white dark:bg-black text-black dark:text-white">
+    <div className="container mx-auto p-6 bg-white dark:bg-gray-900 text-black dark:text-white">
       <div className="flex flex-col md:flex-row-reverse items-center md:justify-between gap-8 py-24">
         <div className="w-full md:w-1/2">
           <img

@@ -21,11 +21,10 @@ import sci5 from "../assets/Images/scienceLab/sciGirl.jpg";
 import sci6 from "../assets/Images/scienceLab/mpbhattasir.jpg";
 import sci7 from "../assets/Images/scienceLab/sciboys.jpg";
 import sci8 from "../assets/Images/scienceLab/scifield2.jpg";
-import sci9 from "../assets/Images/scienceLab/scifield3.jpg";
 import sci10 from "../assets/Images/scienceLab/scifield4.jpg";
 
 const hotelManagementImages = [hm1, hm2, hm3, hm4, hm5, hm6, hm7, hm8, hm9];
-const scienceImages = [sci2, sci3, sci4, sci5, sci6, sci7, sci8, sci9, sci10];
+const scienceImages = [sci2, sci3, sci4, sci5, sci6, sci7, sci8, sci10];
 const mgntImages = [];
 const extraImages = [];
 

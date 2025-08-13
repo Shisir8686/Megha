@@ -4,7 +4,7 @@ import BoardSection from "../AboutComponents/BoardMembers";
 
 const About = () => {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-gray-800">
       <div className=" container overflow-x-hidden">
         <MainAbout />
         <BoardSection />

@@ -15,7 +15,7 @@ const MainLayout = () => {
   return (
     <>
     <NavInfoBar/>
-      <div className="overflow-x-hidden bg-white dark:bg-black shadow-md hover:shadow-lg transition-all ease-in-out duration-500 shadow-gray-200 dark:shadow-sm dark:shadow-gray-200 fixed w-full z-30">
+      <div className="overflow-x-hidden bg-white dark:bg-gray-800 shadow-md hover:shadow-lg transition-all ease-in-out duration-500 shadow-gray-200 dark:shadow-sm dark:shadow-gray-200 fixed w-full z-30">
         {/* <NewNavmenu/> */}
         <Navigation />
       </div>

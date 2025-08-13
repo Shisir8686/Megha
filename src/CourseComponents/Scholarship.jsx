@@ -4,7 +4,7 @@ import scholarshipData from "../constants/scholarship";
 const Scholarship = () => {
   return (
     <>
-      <div className="container mx-auto px-6 pt-2 pb-20 bg-white dark:bg-black text-black dark:text-white ">
+      <div className="container mx-auto px-6 pt-2 pb-20 bg-white dark:bg-gray-800 text-black dark:text-white rounded-2xl">
         <h2 className="text-3xl font-semibold text-center text-blue-500 dark:text-blue-400 mb-8">
           Scholarship Scheme (For +2)
         </h2>

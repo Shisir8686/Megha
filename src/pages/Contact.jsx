@@ -3,7 +3,7 @@ import ContactUs from "../2ndComponents/ContactUs";
 
 const Contact = () => {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-gray-800">
       <div className="container overflow-x-hidden">
         <ContactUs />
       </div>

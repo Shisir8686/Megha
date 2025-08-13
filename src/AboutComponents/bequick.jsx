@@ -6,14 +6,14 @@ import { Link } from "react-router-dom";
 const BeQuick = () => {
   return (
     <div
-      className="relative w-full h-[350px] sm:h-[400px] md:h-[500px] lg:h-[600px] flex items-end justify-center overflow-hidden rounded-2xl shadow-xl my-10"
+      className="relative w-full h-[350px] sm:h-[400px] md:h-[500px] lg:h-[600px] flex items-end justify-center overflow-hidden rounded-2xl shadow-xl my-10 dark:bg-gray-800"
       style={{
         backgroundImage: `url(${proudmoment})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
-      <div className="relative z-10 w-full px-4 pb-8 flex flex-col items-center justify-end text-center">
+      <div className="relative z-10 w-full px-4 pb-8 flex flex-col items-center justify-end text-center dark:bg-gray-800">
         <h1 className="text-white text-xl sm:text-2xl md:text-3xl lg:text-5xl font-bold mb-2 drop-shadow-lg">
           Join us and become a part of Megha Family
         </h1>

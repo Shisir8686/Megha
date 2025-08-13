@@ -17,11 +17,10 @@ import sci5 from "../assets/Images/scienceLab/sciGirl.jpg";
 import sci6 from "../assets/Images/scienceLab/mpbhattasir.jpg";
 import sci7 from "../assets/Images/scienceLab/sciboys.jpg";
 import sci8 from "../assets/Images/scienceLab/scifield2.jpg";
-import sci9 from "../assets/Images/scienceLab/scifield3.jpg";
 import sci10 from "../assets/Images/scienceLab/scifield4.jpg";
 
 const hotelManagementImages = [hm1, hm2, hm3, hm4, hm5, hm6, hm7, hm8, hm9];
-const scienceImages = [ sci2, sci3, sci4, sci5, sci6, sci7, sci8, sci9, sci10];
+const scienceImages = [ sci2, sci3, sci4, sci5, sci6, sci7, sci8, sci10];
 const mgntImages = [];
 const extraImages = [];
 
@@ -32,9 +31,9 @@ const Gallery = () => {
   const images = activeTab === "Hotel Management" ? hotelManagementImages : scienceImages;
 
   return (
-    <div className="container mx-auto py-12">
-      <h1 className="text-3xl sm:text-5xl font-semibold text-center mb-8 text-blue-600 dark:text-indigo-400">Gallery</h1>
-      <div className="flex justify-center gap-6 mb-8">
+    <div className="container mx-auto py-12 dark:bg-gray-800">
+      <h1 className="text-3xl sm:text-5xl font-semibold text-center mb-8 text-blue-600 dark:text-indigo-400 dark:bg-gray-800 ">Gallery</h1>
+      <div className="grid grid-cols-2 sm:flex sm:justify-center gap-3 sm:gap-6 mb-8">
         <button
           className={`px-6 py-2 rounded-lg font-semibold transition-all duration-300 ${
             activeTab === "Hotel Management"
@@ -45,7 +44,7 @@ const Gallery = () => {
         >
           Hotel Management
         </button>
-        <button
+         <button
           className={`px-6 py-2 rounded-lg font-semibold transition-all duration-300 ${
             activeTab === "Science"
               ? "bg-blue-600 text-white"
@@ -79,7 +78,7 @@ const Gallery = () => {
         </button>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {images.map((img, idx) => (
+       {images.map((img, idx) => (
           <div
             key={idx}
             className="rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300 cursor-pointer"

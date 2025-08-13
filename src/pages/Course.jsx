@@ -17,7 +17,7 @@ const Course = () => {
   }, [location]);
 
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-gray-800">
       <div className="container overflow-x-hidden">
         <CourseMain />
         <Admission />

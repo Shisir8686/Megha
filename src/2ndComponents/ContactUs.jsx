@@ -37,7 +37,7 @@ export default function ContactUs() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-white to-pink-100 px-4 py-14 my-12">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 via-white to-pink-100 px-4 py-14 my-12 dark:bg-gray-600 rounded-2xl">
       {!submitted ? (
         <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-2xl w-full max-w-3xl transition-all" data-aos="fade-up">
          
